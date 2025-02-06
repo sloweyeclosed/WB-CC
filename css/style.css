@@ -43,7 +43,6 @@ body {
   text-decoration: none;
   transition: all 0.25s ease;
   &:hover {
-    scale: 1.1;
     color: var(--hover-button-span);
     .logo-wrap {
       color: var(--logo);
@@ -240,6 +239,13 @@ body {
 
 .footer-logo {
   color: var(--bg-text-footer);
+  &:hover {
+    color: var(--hover-button-span);
+    scale: 1.1;
+    .logo-wrap {
+      color: var(--bg-text-footer);
+    }
+  }
 }
 .footer-link {
   color: var(--footer-address);
